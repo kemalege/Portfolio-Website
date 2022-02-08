@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myblog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="styles/style2.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/1aa5a0feb8.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    
+
+    
+</head>
+
+<body>
+    <div id="mainbox" onmouseover="openFunction()" >
+        <span id="cls"> &#9776; Open</span>
+    </div>
+
+    <div id="menu" class="sidemenu">
+     <a href="#">Home</a>
+     <a href="#About">About</a>
+     <a href="#footer">Contact</a>
+     <a href="#login">Login</a>
+     <a href="#" class="closebtn" onmouseover="closeFunction()">&times;</a>
+   </div>
+    <main>
+  
+        <div class="content">
+            <section class="first-section">
+                <h1>
+                    Hello
+                    <br>
+                    I'm Ege
+                    <br>
+                    Çırpanlı
+                </h1>
+                <p>Lorem ipsum dolor sit amet <strong> consectetur, adipisicing</strong> elit. Maiores blanditiis atque
+                    repellat corporis
+                    unde nesciunt explicabo deleniti. Velit, culpa delectus.</p>
+            </section>
+
+            <section id='About' class="second-section">
+                <h2>About</h2>
+                <div class="line"></div>
+                <p class="first-p">Dolor sit amet, consectetur adipiscing elit viverra tristique placerat in massa
+                    consectetur pomunos
+                </p>
+                <p class="second-p">Faucibus sed tristique fames sed aliquet ultricies eget viverra arcu vitae faucibus
+                    diam consequat
+                    maecenas turpis metus sit diam purus leo in varius ac quam nunc amet tristique volutpat kominos
+                    erobu asa lokomo.</p>
+            </section>
+
+            <div id = "contact" class="third-section">
+                <div  class="image-card" >
+                    <img src="./assets/icon_01.png" alt="tt">
+                    <a href="">DESIGN</a>
+                </div>
+                <div class="image-card">
+                    <img src="./assets/icon_02.png" alt="tt">
+                    <a href="">CODING</a>
+                </div>
+                <div class="image-card">
+                    <img src="./assets/icon_03.png" alt="tt">
+                    <a href="">MEDIA</a>
+                </div>
+            </div>
+
+            <section id="login" class="fourth-section">
+                <div class="header">
+                    <h2>Portfolio</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="galery-one">
+                    <img src="./assets/portfolio_img_01_v2.jpg" alt="">
+                    <div id="bottommenu" class = "btngalery-one" onmouseover="openOffice()" onmouseout="closeOffice()">
+                        
+                    </div>
+                </div>
+                <div class="galery-two">
+                    <div class="left-side">
+                        <img src="./assets/portfolio_img_03_v2.jpg" alt="">
+                    </div>
+                    <div class="right-side">
+                        <div class="picture-top">
+                            <img src="./assets/portfolio_img_02_v2.jpg" alt="">
+                        </div>
+                        <div class="picture-bottom">
+                            <img src="./assets/portfolio_img_04_v2.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="more">
+                    <p>LOAD MORE</p>
+                </div>
+            </section>
+            <section class="fifth-section">
+                
+                <!-- <div class="timeline-wrapper">
+                    <ul>
+                        <li>
+                            <div>
+                                <h2 id= "1">Deneyim 1</h2>
+                                <p>Junıor Developer at SoftFES Company</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h2>Deneyim 2</h2>
+                                <p>Photograpger Course Certificate</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h2>Deneyim 3</h2>
+                                <p>Empty</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div> -->
+         
+                <div id="wrapper">
+                    <div class="invitation">
+                      <header id="header">
+                        <h1>Experiences</h1>
+                      </header>
+                      <form id="inviteForm">
+                        <input type="text" name="name" placeholder="Deneyim ekle">
+                        <button type="submit" name="submit" value="submit">Submit</button>
+                      </form>
+                      <main class="main">	
+                          
+                          
+                              
+                              <ul id="invitedList">
+                                <li>
+                                  <span>Junıor Developer at SoftFES Company</span>
+                                  <label>Confirmed<input type="checkbox"></label>
+                                  <button>edit</button>
+                                  <button>remove</button>
+                                </li> 
+                                <li>
+                                  <span>Photograpger Course Certificate</span>
+                                  <label>Confirmed<input type="checkbox"></label>
+                                  <button>edit</button>
+                                  <button>remove</button>
+                                </li> 
+                              </ul>	
+                          
+             
+                      </main>
+                    </div>
+                  </div>
+
+            </section>
+            <section class="sixth-section">
+                <div class="bottom">
+                    <div class="items">
+                        <div class="skill-holder">
+                            <div class="skill">
+                                <div class="skill-text">PHOTOSHOP</div>
+                                <div class="skill-fill first-skill"></div>
+                            </div>
+                            <div class="skill-num">62%</div>
+                        </div>
+                        <div class="skill-holder">
+                            <div class="skill">
+                                <div class="skill-text">ILLUSTRATOR</div>
+                                <div class="skill-fill second-skill"></div>
+                            </div>
+                            <div class="skill-num">84%</div>
+                        </div>
+                        <div class="skill-holder">
+                            <div class="skill">
+                                <div class="skill-text">MARKETING</div>
+                                <div class="skill-fill third-skill"></div>
+                            </div>
+                            <div class="skill-num">78%</div>
+                        </div>
+                        <div class="skill-holder">
+                            <div class="skill">
+                                <div class="skill-text">JAVASCRIPT</div>
+                                <div class="skill-fill fourth-skill"></div>
+                            </div>
+                            <div class="skill-num">92%</div>
+                        </div>
+                        <div class="skill-holder">
+                            <div class="skill">
+                                <div class="skill-text">JAVA</div>
+                                <div class="skill-fill fifth-skill"></div>
+                            </div>
+                            <div class="skill-num">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <div class="aside">
+
+            <div class="main-profile">
+                <img  src="./assets/try.jpg"
+                    alt="">
+           
+            </div>
+            <!-- <div class="container">
+               
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+        
+                        </tr>
+                    </thead>
+                    <tbody id="wrt"></tbody>
+                </table>
+        
+            </div> -->
+        </div>
+        
+    </main>
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/" role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://google.com/" role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/" role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+      
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.github.com/" role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div id="footer" class="text-center p-3 footerspan" style="background-color: rgba(0, 0, 0, 0.2);">
+            <p>© 2022</p>
+            <a id="cv" href="Forms-Inputs.html" target="_blank" >
+            <span >SEND INFO</span>
+          
+         
+        </div>
+        <!-- Copyright -->
+      </footer>
+    
+    <script type="text/javascript" src="app2.js"></script>
+    <script src="app.js"></script>
+    <script src="ui.js"></script>
+    
+    
+    
+    
+</body>
+
+</html>
